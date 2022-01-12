@@ -1,0 +1,281 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <!-- credits reserved -->
+    <link rel="logo icon" href="icon.png" type="image-logo icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+</head>
+
+<body style="background-image: url('food.jpeg'); background-repeat: no-repeat;  background-size: 100% 100%;">
+    <div class="container-fluid">
+        <div class="row bg-dark text-light justify-content-center align-items-center fs-4 sticky-top"
+            style="height: 60px">
+            <div class="col-xl-8">
+                <marquee behavior="" direction="">
+                    <h3> Welcome to Food Paradise Sign-Up Page</h3>
+                </marquee>
+            </div>
+        </div>
+        <div class="row bg-primary p-xl-2 text-decoration align-items-center justify-content-center fs-3">Sign-Up Here
+        </div>
+        <br />
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <form action="/signupsuccess.html" onsubmit="return validation()" class="col-xl-6 col-sm-3 col-md-4">
+                    <div class="form-group">
+                        <label class="font-weight-regular"> Name </label>
+                        <input type="text" name="name" class="form-control" id="name" autocomplete="off"
+                            placeholder="Enter your goodname here" />
+                        <!-- autocomplete? -->
+                        <span id="Name" class="text-danger font-weight-regular"> </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-regular"> Email Id </label>
+                        <input type="text" name="email" class="form-control" id="emails" placeholder="Enter Email here"
+                            autocomplete="off" />
+                        <span id="emailids" class="text-danger font-weight-regular"> </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user" class="font-weight-regular"> Username </label>
+                        <input type="text" name="user" class="form-control" id="user" placeholder="Enter username"
+                            autocomplete="off" />
+                        <span id="username" class="text-danger font-weight-regular"> </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="font-weight-regular"> Password </label>
+                        <input type="password" name="pass" class="form-control" placeholder="Enter password here"
+                            id="pass" autocomplete="off" />
+                        <span id="passwords" class="text-danger font-weight-regular">
+                        </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="font-weight-regular"> Confirm Password </label>
+                        <input type="password" name="conpass" class="form-control" id="conpass"
+                            placeholder="confirm password" autocomplete="off" />
+                        <span id="confrmpass" class="text-danger font-weight-regular">
+                        </span>
+                    </div>
+
+                    <div class="form-group mb-lg-3 mb-md-3 ">
+                        <label class="font-weight-regular"> Mobile Number </label>
+                        <input type="text" name="mobile" class="form-control" id="mobileNumber" autocomplete="off"
+                            placeholder="mobile number" />
+                        <span id="mobileno" class="text-danger font-weight-regular"> </span>
+                    </div>
+
+                    <button class="btn btn-outline-dark w-50 me-5">Sign-Up <a href="signupsuccess.html"></a></button>
+                    <input type="reset" name="reset" value="Reset" class="btn btn-outline-primary w-25 float-end"
+                        autocomplete="off" />
+                    &emsp;&emsp;&emsp;
+                    <br>
+                    <hr>
+                    <div class="form-group">
+                        <label class="font-weight-regular">Already have an account?</label>
+
+                        <span id="mobileno" class="text-danger font-weight-regular float-end"> <a
+                                class=" text-decoration-none" href="prologin.html">Login</a> </span>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-dark">
+        <div class="container">
+            <div class="footer text-light">
+                <div class="row p-5">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="card-body">
+                            <label style="text-align: center;">Thanks</label>
+                            <hr>
+                            <p class="card-text" style="text-align: justify;">I hope you've enjoyed visiting my
+                                website.
+                                But before you go, why not check out my simple vegetarian recipes, my deliciously
+                                quick
+                                meat dishes or maybe even join me in the kitchen in my video recipes.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="card-body">
+                            <label style="text-align: center;">Popular Links</label>
+                            <hr>
+                            <div class="widget">
+                                <ul>
+                                    <label><a href="Vegeterain-food.html" target="_blank"
+                                            style="color: #fff; text-decoration: none; ">VEGETARIAN
+                                        </a></label>
+                                    <br>
+
+                                    <label><a href="nonveg-card.html" target="_blank"
+                                            style="color: #fff; text-decoration: none;">NON-VEGETARIAN</a>
+                                    </label>
+                                    <br>
+
+                                    <label><a href="snacks.html" target="_blank"
+                                            style="color: #fff; text-decoration: none; ">SNACKS
+                                        </a></label>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="card-body">
+                            <label style="text-align: center;">Other Links</label>
+                            <hr>
+                            <div class="widget">
+                                <ul>
+                                    <label><a href="index.html" target="_blank"
+                                            style="color: #fff; text-decoration: none; ">Home
+                                        </a></label>
+                                    <br>
+
+                                    <label><a href="aboutus.html" target="_blank"
+                                            style="color: rgb(255, 255, 255); text-decoration: none;">Contact Us</a>
+                                    </label>
+                                    <br>
+
+                                    <label><a href="prosignup.html" target="_blank"
+                                            style="color: #fff; text-decoration: none; ">Food Quotes</a></label>
+                                    <br>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <img src="logo.png" style="width:200px;height:200px;" alt="not found">
+                        <span>
+                            <h4 class="txt " style=" margin-right: 15px; margin-top: 5px; color: white;">Foodie
+                                Paradise
+                            </h4>
+                        </span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+        function validation() {
+            var name = document.getElementById("name").value;
+            var user = document.getElementById("user").value;
+            var pass = document.getElementById("pass").value;
+            var confirmpass = document.getElementById("conpass").value;
+            var mobileNumber = document.getElementById("mobileNumber").value;
+            var emails = document.getElementById("emails").value;
+
+            if (name == "") {
+                document.getElementById("Name").innerHTML =
+                    " ** Please fill the Name field";
+                return false;
+            }
+
+            if (emails == "") {
+                document.getElementById("emailids").innerHTML =
+                    " ** Please fill the email id field";
+                return false;
+            }
+            if (emails.indexOf("@") <= 0) {
+                document.getElementById("emailids").innerHTML = " ** Invalid Email";
+                return false;
+            }
+
+            if (
+                emails.charAt(emails.length - 4) != "." &&
+                emails.charAt(emails.length - 3) != "."
+            ) {
+                document.getElementById("emailids").innerHTML = " ** Invalid Email";
+                return false;
+            }
+
+            if (user == "") {
+                document.getElementById("username").innerHTML =
+                    " ** Please fill the username field";
+                return false;
+            }
+            if (user.length <= 3 || user.length > 20) {
+                document.getElementById("username").innerHTML =
+                    " ** Username lenght must be between 3 and 20";
+                return false;
+            }
+            if (!isNaN(user)) {
+                document.getElementById("username").innerHTML =
+                    " ** only characters are allowed";
+                return false;
+            }
+
+            if (pass == "") {
+                document.getElementById("passwords").innerHTML =
+                    " ** Please fill the password field";
+                return false;
+            }
+            if (pass.length <= 5 || pass.length > 20) {
+                document.getElementById("passwords").innerHTML =
+                    " ** Passwords lenght must be between  5 and 20";
+                return false;
+            }
+
+            if (pass != confirmpass) {
+                document.getElementById("confrmpass").innerHTML =
+                    " ** Password Mismatch";
+                return false;
+            }
+
+            if (confirmpass == "") {
+                document.getElementById("confrmpass").innerHTML =
+                    " ** Please fill the confirmpassword field";
+                return false;
+            }
+
+            if (mobileNumber == "") {
+                document.getElementById("mobileno").innerHTML =
+                    " ** Please fill the mobile NUmber field";
+                return false;
+            }
+            if (isNaN(mobileNumber)) {
+                document.getElementById("mobileno").innerHTML =
+                    " ** user must write digits only not characters";
+                return false;
+            }
+            if (mobileNumber.length != 10) {
+                document.getElementById("mobileno").innerHTML =
+                    " ** Mobile Number must be 10 digits only";
+                return false;
+            }
+
+
+            else {
+                return true;
+            }
+        }
+    </script>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>

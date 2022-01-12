@@ -1,0 +1,117 @@
+html,
+body {
+    margin: 0;
+     background-image: url(food.jpeg); 
+     background-repeat: no-repeat;
+     background-size: 100%;
+   }
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+  }
+
+
+.item1 {
+    background-color: rgb(132, 42, 216);
+    font-size: large;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 2px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .cls1
+  {
+    display: flex;
+    justify-content:end;
+    align-items:center ;
+  }
+  .parent21 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .child21 {
+    width: 450px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.05);
+    margin-bottom: 8px;
+    margin-top: 40px;
+  }
+  
+  .child21-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+  }
+  
+  .child21-subtitle {
+    padding: 8px;
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(5, 10, 26); 
+    font-weight: bold ;
+  }
+
+  .parent22 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .child22 {
+    width: 450px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.05);
+    margin-bottom: 8px;
+    margin-top: 40px;
+  }
+  
+  .child22-img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 5%;
+    
+  }
+  
+  .child22-subtitle {
+    padding: 8px;
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(5, 10, 26);
+    font-weight: bold ;
+  }
+    .parent23 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .child23 {
+      width: 450px;
+      margin: 10px;
+      background: rgba(0, 0, 0, 0.05);
+      margin-bottom: 8px;
+      margin-top: 40px;
+    }
+    
+    .child23-img {
+      width: 100%;
+      height: 60%;
+      object-fit: cover;
+      border-radius: 5%;
+      
+    }
+    
+    .child23-subtitle {
+      padding: 8px;
+      font-size: 16px;
+      text-align: justify;
+      color: rgb(5, 10, 26);
+      font-weight: bold ;
+  }

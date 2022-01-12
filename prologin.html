@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- credits reserved -->
+    <link rel="logo icon" href="icon.png" type="image-logo icon">
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-image: url('food.jpeg'); background-repeat: no-repeat;  background-size: 100% 100%;">
+    <div class="container-fluid">
+        <div class="row bg-dark text-light justify-content-center align-items-center fs-4 sticky-top"
+            style="height: 60px">
+            <div class="col-xl-8">
+                <marquee behavior="" direction="">
+                    <h3> Welcome to Food Paradise Login Page</h3>
+                </marquee>
+            </div>
+        </div>
+        <div class="row bg-primary p-xl-2 text-decoration align-items-center justify-content-center fs-1">Login to
+            your
+            Account</div>
+        <br />
+
+        <div class="row justify-content-center">
+            <form action="/index.html" onsubmit="return validation()" class="col-xl-6 col-sm-3 col-md-4">
+                <div class="form-group">
+                    <label class="font-weight-regular"> Email Id </label>
+                    <input type="text" name="email" class="form-control" id="emails" placeholder="Enter Email here"
+                        autocomplete="off" />
+                    <span id="emailids" class="text-danger font-weight-regular"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label class="font-weight-regular"> Password </label>
+                    <input type="password" name="pass" class="form-control" placeholder="Enter password here" id="pass"
+                        autocomplete="off" />
+                    <span id="passwords" class="text-danger font-weight-regular">
+                    </span>
+                </div>
+
+                <button class="btn btn-outline-primary w-50">Login <a href="index.html"></a></button>
+                <input type="reset" name="reset" value="Reset" class="btn btn-outline-dark w-25 float-xl-right"
+                    autocomplete="off" />
+                &emsp;&emsp;&emsp;
+
+                <div class="form-group">
+                    <label class="font-weight-regular">Forgot Password?</label>
+
+                    <span id="mobileno" class="text-danger font-weight-regular float-end"> <a
+                            class=" text-decoration-none" href="proforgot.html">Click here</a> </span>
+
+                </div>
+                <div class="form-group">
+                    <label class="font-weight-regular">Don't have an account Sign-Up here</label>
+
+                    <span id="mobileno" class="text-danger font-weight-regular float-end"> <a
+                            class=" text-decoration-none" href="prosignup.html">Click here</a> </span>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <hr class=" border-dark ">
+    <div class="bg-dark">
+        <div class="container">
+            <div class="footer text-light">
+                <div class="row p-5">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="card-body">
+                            <label style="text-align: center;">Thanks</label>
+                            <hr>
+                            <p class="card-text" style="text-align: justify;">I hope you've enjoyed visiting my
+                                website.
+                                But before you go, why not check out my simple vegetarian recipes, my deliciously
+                                quick
+                                meat dishes or maybe even join me in the kitchen in my video recipes.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="card-body">
+                            <label style="text-align: center;">Popular Links</label>
+                            <hr>
+                            <div class="widget">
+                                <ul>
+                                    <label><a href="Vegeterain-food.html" target="_blank"
+                                            style="color: #fff; text-decoration: none; ">VEGETARIAN
+                                        </a></label>
+                                    <br>
+
+                                    <label><a href="nonveg-card.html" target="_blank"
+                                            style="color: #fff; text-decoration: none;">NON-VEGETARIAN</a>
+                                    </label>
+                                    <br>
+
+                                    <label><a href="snacks.html" target="_blank"
+                                            style="color: #fff; text-decoration: none; ">SNACKS
+                                        </a></label>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="card-body">
+                            <label style="text-align: center;">Other Links</label>
+                            <hr>
+                            <div class="widget">
+                                <ul>
+                                    <label><a href="index.html" target="_blank"
+                                            style="color: #fff; text-decoration: none; ">Home
+                                        </a></label>
+                                    <br>
+
+                                    <label><a href="aboutus.html" target="_blank"
+                                            style="color: rgb(255, 255, 255); text-decoration: none;">Contact Us</a>
+                                    </label>
+                                    <br>
+
+                                    <label><a href="prologin.html" target="_blank"
+                                            style="color: #fff; text-decoration: none; ">Food Quotes</a></label>
+                                    <br>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <img src="logo.png" style="width:200px;height:200px;" alt="not found">
+                        <span>
+                            <h4 class="txt " style=" margin-right: 15px; margin-top: 5px; color: white;">Foodie
+                                Paradise
+                            </h4>
+                        </span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+    <script type="text/javascript">
+        function validation() {
+
+            var pass = document.getElementById("pass").value;
+
+            var emails = document.getElementById("emails").value;
+
+
+
+            if (emails == "") {
+                document.getElementById("emailids").innerHTML =
+                    " ** Please fill the email id field";
+                return false;
+            }
+            if (emails.indexOf("@") <= 0) {
+                document.getElementById("emailids").innerHTML = " ** Invalid Email";
+                return false;
+            }
+
+            if (
+                emails.charAt(emails.length - 4) != "." &&
+                emails.charAt(emails.length - 3) != "."
+            ) {
+                document.getElementById("emailids").innerHTML = " ** Invalid Email";
+                return false;
+            }
+
+
+            if (pass == "") {
+                document.getElementById("passwords").innerHTML =
+                    " ** Please fill the password field";
+                return false;
+            }
+            if (pass.length <= 8 || pass.length > 20) {
+                document.getElementById("passwords").innerHTML =
+                    " ** Passwords length must be between  8 and 20";
+                return false;
+            }
+
+            else {
+                return true;
+            }
+
+
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+html,body{overflow-x: hidden;}
+
+#myVideo {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+  
